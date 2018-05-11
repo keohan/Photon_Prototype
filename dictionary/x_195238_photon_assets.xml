@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Assets" max_length="40" name="x_195238_photon_assets" type="collection">
+        <element choice="1" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element label="-- Select a Type  --" value="-- Select a Type  --"/>
+                <element label="Accelerator" value="accelerator"/>
+                <element label="Process" value="process"/>
+                <element label="Tool" value="tool"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="2000" name="description" type="string"/>
+        <element label="Link" max_length="5000" name="link" type="html"/>
+        <element label="Name" mandatory="true" max_length="2000" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" display="true" label="Parent Process" max_length="32" name="parent_process" reference="x_195238_photon_process" reference_qual="nameANYTHING^EQ" reference_qual_condition="nameANYTHING^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Process" mandatory="true" max_length="4000" name="process" reference="x_195238_photon_process" type="glide_list">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="parent_process"/>
+        </index>
+    </element>
+</database>

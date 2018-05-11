@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="about" label="About" language="en" table="x_195238_photon_offering">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>about</element>
+            <help/>
+            <hint/>
+            <label>About</label>
+            <language>en</language>
+            <name>x_195238_photon_offering</name>
+            <plural>Abouts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-07 14:27:51</sys_created_on>
+            <sys_id>bb28c0ffdb311300a177dd30cf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>About</sys_name>
+            <sys_package display_value="Photon" source="x_195238_photon">704a3105db101300a177dd30cf961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Photon">704a3105db101300a177dd30cf961964</sys_scope>
+            <sys_update_name>sys_documentation_x_195238_photon_offering_about_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-07 14:27:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

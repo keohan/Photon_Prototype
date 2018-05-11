@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent_package" label="Parent Package" language="en" table="x_195238_photon_package">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_package</element>
+            <help/>
+            <hint/>
+            <label>Parent Package</label>
+            <language>en</language>
+            <name>x_195238_photon_package</name>
+            <plural>Parent Packages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-07 14:34:32</sys_created_on>
+            <sys_id>31b9ccffdb311300a177dd30cf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent Package</sys_name>
+            <sys_package display_value="Photon" source="x_195238_photon">704a3105db101300a177dd30cf961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Photon">704a3105db101300a177dd30cf961964</sys_scope>
+            <sys_update_name>sys_documentation_x_195238_photon_package_parent_package_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-07 14:34:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

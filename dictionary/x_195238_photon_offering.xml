@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Offering" max_length="40" name="x_195238_photon_offering" type="collection">
+        <element label="About" max_length="2000" name="about" type="string"/>
+        <element label="Contacts" max_length="2000" name="contacts" read_only="true" type="html"/>
+        <element label="Name" mandatory="true" max_length="2000" name="name" type="string"/>
+        <element label="Notes" max_length="10000" name="notes" read_only="true" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" display="true" label="Parent Offering II" max_length="32" name="parent_offering_ii" reference="x_195238_photon_offering" type="reference">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return Name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Related Assets" max_length="4000" name="related_assets" reference="x_195238_photon_assets" reference_key="Name" type="reference" virtual="true"/>
+        <index name="index">
+            <element name="parent_offering_ii"/>
+        </index>
+    </element>
+</database>

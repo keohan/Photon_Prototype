@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent_process" label="Parent Process" language="en" table="x_195238_photon_assets">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_process</element>
+            <help/>
+            <hint/>
+            <label>Parent Process</label>
+            <language>en</language>
+            <name>x_195238_photon_assets</name>
+            <plural>Parent Process</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-07 19:29:41</sys_created_on>
+            <sys_id>dd4d093bdbf11300a177dd30cf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent Process</sys_name>
+            <sys_package display_value="Photon" source="x_195238_photon">704a3105db101300a177dd30cf961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Photon">704a3105db101300a177dd30cf961964</sys_scope>
+            <sys_update_name>sys_documentation_x_195238_photon_assets_parent_process_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-07 19:29:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

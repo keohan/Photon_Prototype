@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-07 14:03:08</sys_created_on>
+        <sys_id>7982c0fbdb311300a177dd30cf961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_195238_photon_process.x_195238_photon.process_user</sys_name>
+        <sys_package display_value="Photon" source="x_195238_photon">704a3105db101300a177dd30cf961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Photon">704a3105db101300a177dd30cf961964</sys_scope>
+        <sys_security_acl display_value="x_195238_photon_process">7182c0fbdb311300a177dd30cf961941</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7982c0fbdb311300a177dd30cf961943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-07 14:03:08</sys_updated_on>
+        <sys_user_role display_value="x_195238_photon.process_user" name="x_195238_photon.process_user">ed824cbbdb311300a177dd30cf961986</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

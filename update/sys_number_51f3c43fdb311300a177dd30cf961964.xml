@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_195238_photon_package">x_195238_photon_package</category>
+        <maximum_digits>10</maximum_digits>
+        <number>1</number>
+        <prefix>PAC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-07 14:09:23</sys_created_on>
+        <sys_id>51f3c43fdb311300a177dd30cf961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PAC</sys_name>
+        <sys_package display_value="Photon" source="x_195238_photon">704a3105db101300a177dd30cf961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Photon">704a3105db101300a177dd30cf961964</sys_scope>
+        <sys_update_name>sys_number_51f3c43fdb311300a177dd30cf961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-07 14:09:23</sys_updated_on>
+    </sys_number>
+</record_update>
